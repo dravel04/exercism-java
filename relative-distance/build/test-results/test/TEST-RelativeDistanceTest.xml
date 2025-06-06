@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RelativeDistanceTest" tests="7" skipped="6" failures="1" errors="0" timestamp="2025-06-06T14:07:25" hostname="Fitas-MacBook-Air.local" time="0.01">
+  <properties/>
+  <testcase name="testSiblingRelationship()" classname="RelativeDistanceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDirectParentChildRelation()" classname="RelativeDistanceTest" time="0.007">
+    <failure message="java.lang.UnsupportedOperationException: Delete this statement and write your own implementation." type="java.lang.UnsupportedOperationException">java.lang.UnsupportedOperationException: Delete this statement and write your own implementation.
+	at RelativeDistance.degreeOfSeparation(RelativeDistance.java:12)
+	at RelativeDistanceTest.testDirectParentChildRelation(RelativeDistanceTest.java:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="testComplexGraphCousins()" classname="RelativeDistanceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testUnrelatedIndividuals()" classname="RelativeDistanceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testTwoDegreesOfSeparationGrandchild()" classname="RelativeDistanceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testComplexGraphNoShortcutFarRemovedNephew()" classname="RelativeDistanceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testComplexGraphSomeShortcutsCrossDownAndCrossUpCousinsSeveralTimesRemovedWithUnrelatedFamilyTree()" classname="RelativeDistanceTest" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
